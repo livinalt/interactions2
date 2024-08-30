@@ -39,6 +39,7 @@ async function main() {
     const withdrawTX = await saveERC20.deposit(withdrawAmount);
 
     console.log(withdrawAmount);
+    console.log(withdrawTX);
 
     depositTx.wait();
 
